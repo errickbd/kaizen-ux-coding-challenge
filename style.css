@@ -25,7 +25,7 @@ body{
 }
 
 .challenge-main-section{
-    background-color: violet;
+    background-color: whitesmoke;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-right: 50px;
@@ -87,6 +87,8 @@ body{
     justify-content:center;
     align-items:center;
     padding: 50px;  
+    position: relative;
+    right:50px;
 }
 
 .panel-text{
