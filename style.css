@@ -1,0 +1,449 @@
+/*--------------------------------------Overall Styling------------------------------------*/
+
+.challenge-section {
+    background-color: gray;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    }
+    
+.challenge-main-section{
+    background-color: whitesmoke;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    border-radius: 10px;
+    width: 90%; 
+    }
+    
+.challenge-btn-section{
+    display:inline-flex;
+    flex-direction:column;
+    text-align:center;
+    justify-content:center;
+    padding: 50px;
+    padding-left: 0px;
+    }
+    
+.kaizen-btn{
+    font-weight:bold;
+    font-size: 1em;
+    display: inline-flex;
+    background-color: darkred;
+    border:none ;
+    padding: 8px;
+    color: whitesmoke;
+    margin-bottom: 8px;
+    border-radius: 14px;
+    text-align: center;
+    justify-content:center;
+    white-space:nowrap;
+    }
+    
+.hints-btn{
+    font-weight:normal;
+    font-size: 1em;
+    display: inline-flex;
+    background-color:whitesmoke;
+    border:none ;
+    padding: 8px;
+    color: darkred;
+    margin-bottom: 20px;
+    border-radius: 14px;
+    text-align: center;
+    justify-content:center;    
+    }
+    
+.challenge-panel-section{
+    display:inline-flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    padding: 50px;    
+    }
+    
+.panel-text{
+    height: 200px;
+    text-align: center;
+    justify-content:center;
+    }
+    
+.panel-title{
+    font-weight:bolder;
+    font-size: 1.15em;
+    }
+
+.panel-body{
+    font-size: 1em;
+    }
+    
+.panel-img{
+    width:270px;
+    height:140px;
+    margin-left: 50px;
+    text-align: center;
+    justify-content:center;
+    border-radius: 14px;
+    }
+    
+/*--------------------------------------Screen styling (375px to 499px)------------------------------------*/    
+@media (max-width:499px) and (min-width:375px){
+     .challenge-section {
+        background-color: gray;
+        width:100%;
+        padding: 10px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin:0;
+    }
+    
+    .challenge-main-section{
+        background-color: whitesmoke;
+        width: 100%;
+        height: 100%;
+        padding:30px;
+        margin:0;
+        flex-direction: column;
+    }
+    
+    .challenge-btn-section{
+        display:inline-flex;
+        width: 100%;
+        padding: 0;
+        margin-bottom:20px;
+        flex-direction:row;
+    }
+    
+    .kaizen-btn{
+        width:35%;
+        padding: 8px;
+        margin:0;
+    }
+    
+    .hints-btn{
+        width:35%;
+        padding: 8px;
+        margin:0; 
+    }
+    
+    .challenge-panel-section{
+        width:100%;
+        padding: 0;
+        padding-bottom: 10px;
+        margin:0;
+        flex-direction:column;  
+    }
+    
+    .panel-text{
+        width:100%;
+        padding: 0;
+        margin:0;
+        justify-content:center;
+        text-align: center; 
+    }
+    
+    .panel-title{
+        width:100%;
+        padding: 0;
+        margin:0;
+    }
+
+    .panel-body{
+        width:100%;
+        padding: 0;
+        margin:0;
+        margin-bottom: 35px;
+    }
+    
+    .panel-img{
+        padding: 0;
+        margin:0;
+    }
+
+    .rounded{
+        border-top: 3px solid #bbb;
+        border-radius: 5px;
+        width:100%
+    }
+}
+/*--------------------------------------Screen styling (500px to 909px)------------------------------------*/    
+@media (max-width:909px) and (min-width:500px){
+     .challenge-section {
+        background-color: gray;
+        width:100%;
+        padding: 10px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin:0;
+    }
+    
+    .challenge-main-section{
+        background-color: whitesmoke;
+        width: 100%;
+        height: 100%;
+        padding:30px;
+        margin:0;
+        flex-direction: column;
+    }
+    
+    .challenge-btn-section{
+        display:inline-flex;
+        width: 100%;
+        padding: 0;
+        margin-bottom:20px;
+        flex-direction:row;
+    }
+    
+    .kaizen-btn{
+       width:35%;
+        padding: 8px;
+        margin:0;
+    }
+    
+    .hints-btn{
+        width:35%;
+        padding: 8px;
+        margin:0;
+    }
+    
+    .challenge-panel-section{
+        width:100%;
+        padding: 0;
+        padding-bottom: 10px;
+        margin:0;
+        flex-direction:column;  
+    }
+    
+    .panel-text{
+        width:100%;
+        padding: 0;
+        margin:0;
+        justify-content:center;
+        text-align: center;
+    }
+    
+    .panel-title{
+        width:100%;
+        padding: 0;
+        margin:0;
+    }
+
+    .panel-body{
+        width:100%;
+        padding: 0;
+        margin:0;
+        margin-bottom: 35px;
+    }
+    
+    .panel-img{
+        width: 350px;
+        height:200px;
+        padding: 0;
+        margin:0;
+    }
+
+    .rounded{
+        border-top: 3px solid #bbb;
+        border-radius: 5px;
+        width:100%
+    }
+}
+/*--------------------------------------Screen styling (910px to 991px)------------------------------------*/ 
+@media (max-width:991px) and (min-width:910px){
+     .challenge-section {
+        background-color: gray;
+        padding-top:30px;
+        padding-bottom: 30px;
+        padding-left:120px;
+        padding-right:120px;
+        margin:0;
+    }
+    
+    .challenge-main-section{
+        background-color: whitesmoke;
+        margin:0;
+        padding:20px;
+        display: inline-blockblock;
+        border-radius: 10px;
+        width: 100%;
+        height:250px;
+    }
+    
+    .challenge-btn-section{
+        display:inline-flex;
+        flex-direction:column;
+        text-align:center;
+        justify-content:center;
+        padding: 0px;
+        padding-left: 0px;
+        margin-right: 40px;
+    }
+    
+    .kaizen-btn{
+        font-weight:bold;
+        font-size: 1em;
+        display: inline-flex;
+        background-color: darkred;
+        border:none ;
+        padding: 8px;
+        color: whitesmoke;
+        margin-bottom: 8px;
+        border-radius: 14px;
+        text-align: center;
+        justify-content:center;
+        white-space:nowrap;
+    }
+    
+    .hints-btn{
+        font-weight:normal;
+        font-size: 1em;
+        display: inline-flex;
+        background-color:whitesmoke;
+        border:none ;
+        padding: 8px;
+        color: darkred;
+        margin-bottom: 20px;
+        border-radius: 14px;
+        text-align: center;
+        justify-content:center;
+    }
+    
+    .challenge-panel-section{
+        display:inline-flex;
+        flex-direction:row;
+        justify-content:center;
+        align-items:center;
+        padding: 5px;
+    }
+    
+    .panel-text{
+        height: 200px;
+        text-align: center;
+        justify-content:center;
+    }
+    
+    .panel-title{
+        font-weight:bolder;
+        font-size: 1.15em;
+    }
+
+    .panel-body{
+        font-size: 1em;
+    }
+    
+    .panel-img{
+        width:270px;
+        height:140px;
+        margin-left: 50px;
+        text-align: center;
+        justify-content:center;
+        border-radius: 14px;
+        display:block
+    }
+}
+/*--------------------------------------Screen styling (992px to 1140px)------------------------------------*/ 
+@media (max-width:1140px) and (min-width:992px){
+     .challenge-section {
+        background-color: gray;
+        padding-right: 100px;
+        padding-left: 100px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    .challenge-main-section{
+        background-color: whitesmoke;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 50px;
+        margin-left: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+        display: flex;
+        border-radius: 10px;
+        width: 90%;
+        height:250px;
+    }
+    
+    .challenge-btn-section{
+        display:inline-flex;
+        flex-direction:column;
+        text-align:center;
+        justify-content:center;
+        padding: 50px;
+        padding-left: 0px;
+    }
+    
+    .kaizen-btn{
+        font-weight:bold;
+        font-size: 1em;
+        display: inline-flex;
+        background-color: darkred;
+        border:none ;
+        padding: 8px;
+        color: whitesmoke;
+        margin-bottom: 8px;
+        border-radius: 14px;
+        text-align: center;
+        justify-content:center;
+        white-space:nowrap;
+    }
+    
+    .hints-btn{
+        font-weight:normal;
+        font-size: 1em;
+        display: inline-flex;
+        background-color:whitesmoke;
+        border:none ;
+        padding: 8px;
+        color: darkred;
+        margin-bottom: 20px;
+        border-radius: 14px;
+        text-align: center;
+        justify-content:center;  
+    }
+    
+    .challenge-panel-section{
+        display:inline-flex;
+        flex-direction:row;
+        justify-content:center;
+        align-items:center;
+        padding: 50px;  
+    }
+    
+    .panel-text{
+        height: 200px;
+        text-align: center;
+        justify-content:center;
+        padding-right:20px;
+    }
+    
+    .panel-title{
+        font-weight:bolder;
+        font-size: 1.15em;
+    }
+
+    .panel-body{
+        font-size: 1em;
+        width:130px; 
+    }
+    
+    .panel-img{
+        width:270px;
+        height:140px;
+        margin-left: 50px;
+        text-align: center;
+        justify-content:center;
+        border-radius: 14px;
+    }
+
+    .img-section{
+        padding-left:30px;
+    }
+}
+    
