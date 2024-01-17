@@ -114,11 +114,7 @@ body{
 .img-section{
     padding-left:30px;
 }
-.rounded{
-    border-top: 3px solid #bbb;
-    border-radius: 5px;
-    width:100%
-}
+
     
 /*--------------------------------------Screen styling (375px to 499px)------------------------------------*/    
 @media (max-width:499px) and (min-width:375px){
@@ -180,12 +176,15 @@ body{
         margin:0;
         justify-content:center;
         text-align: center; 
+        
     }
     
     .panel-title{
         width:100%;
-        padding: 0;
-        margin:0;
+        padding-top: 0;
+        margin-top:0;
+        margin-left:0;
+        margin-right:0;
     }
 
     .panel-body{
@@ -214,7 +213,7 @@ body{
         padding: 10px;
         padding-top: 30px;
         padding-bottom: 30px;
-        margin:0;
+        margin:0px;
     }
     
     .challenge-main-section{
@@ -264,8 +263,10 @@ body{
     
     .panel-title{
         width:100%;
-        padding: 0;
-        margin:0;
+        padding-top: 0;
+        margin-top:0;
+        margin-left:0;
+        margin-right:0;
     }
 
     .panel-body{
@@ -297,6 +298,8 @@ body{
         padding-left:120px;
         padding-right:120px;
         margin:0;
+        margin-left: 50px;
+        margin-right: 50px;
     }
     
     .challenge-main-section{
@@ -305,7 +308,7 @@ body{
         padding:20px;
         display: inline-flex;
         border-radius: 10px;
-        width: 1000%;
+        width: 100%;
         height:220px;
     }
     
