@@ -94,5 +94,6 @@ kaizenButton.addEventListener("click", kaizenButtonClickEffect);
 var buttonSection = document.querySelector(".challenge-btn-section");
 var newDivider = '<hr class="rounded" />'
 var newDividerObject = document.createElement('div');
+newDividerObject.classList.add('divider')
 newDividerObject.innerHTML = newDivider;
 buttonSection.insertAdjacentElement('afterend', newDividerObject);

@@ -200,12 +200,22 @@ body{
     .panel-img{
         padding: 0;
         margin:0;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        right: 15px;
     }
 
     .rounded{
         border-top: 3px solid #bbb;
-        border-radius: 5px;
-        width:100%
+        border-radius: 5000px;
+        padding-left: 350px;
+    }
+    .divider{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 25px;
+        width:90%;
     }
 }
 /*--------------------------------------Screen styling (500px to 909px)------------------------------------*/    
@@ -254,6 +264,7 @@ body{
         padding-bottom: 10px;
         margin:0;
         flex-direction:column;  
+        
     }
     
     .panel-text{
@@ -284,12 +295,24 @@ body{
         height:200px;
         padding: 0;
         margin:0;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        right: 15px;
     }
 
     .rounded{
         border-top: 3px solid #bbb;
-        border-radius: 5px;
-        width:100%
+        border-radius: 5000px;
+        padding-left: 400px;
+        width:80%
+    }
+    .divider{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 25px;
+        width: 90%
+        
     }
 }
 /*--------------------------------------Screen styling (910px to 991px)------------------------------------*/ 
@@ -387,6 +410,7 @@ body{
         border-radius: 14px;
         display:block
     }
+    
 }
 /*--------------------------------------Screen styling (992px to 1140px)------------------------------------*/ 
 @media (max-width:1140px) and (min-width:992px){
