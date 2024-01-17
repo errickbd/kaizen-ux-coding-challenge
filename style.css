@@ -295,8 +295,9 @@ body{
         background-color: gray;
         padding-top:30px;
         padding-bottom: 30px;
-        padding-left:120px;
-        padding-right:120px;
+        padding-left: 75px;
+        padding-right: 75px;
+        width:83%;
         margin:0;
         margin-left: 50px;
         margin-right: 50px;
@@ -393,6 +394,9 @@ body{
         padding-top: 5px;
         padding-bottom: 5px;
         display: flex;
+        padding-left: 75px;
+        padding-right: 75px;
+        width:83%;
         align-items: center;
         justify-content: center;
         
