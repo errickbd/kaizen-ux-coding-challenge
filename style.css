@@ -215,12 +215,13 @@ body{
     .rounded{
         border-top: 3px solid #bbb;
         border-radius: 5000px;
-        padding-left: 350px;
+        padding-left: 320px;
     }
     .divider{
         display: flex;
         justify-content: center;
         margin-bottom: 25px;
+        margin-left: 15px;
         width:90%;
     }
 }
@@ -310,13 +311,14 @@ body{
     .rounded{
         border-top: 3px solid #bbb;
         border-radius: 5000px;
-        padding-left: 400px;
+        padding-left: 420px;
         width:80%
     }
     .divider{
         display: flex;
         justify-content: center;
         margin-bottom: 25px;
+        margin-left: 27px;
         width: 90%
         
     }
