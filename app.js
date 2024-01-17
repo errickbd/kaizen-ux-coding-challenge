@@ -71,8 +71,8 @@ function kaizenButtonClickEffect(){
 
     hintsButton.addEventListener("mouseover", hintsButtonMouseoverEffect);
     hintsButton.addEventListener("mouseout", hintsButtonMouseoutEffect);
-    kaizenButton.removeEventListener("mouseout", kaisenButtonMouseoutEffect);
-    kaizenButton.removeEventListener("mouseover", kaisenButtonMouseoverEffect);
+    kaizenButton.removeEventListener("mouseout", kaizenButtonMouseoutEffect);
+    kaizenButton.removeEventListener("mouseover", kaizenButtonMouseoverEffect);
 }
 function hintsButtonMouseoverEffect(){
     hintsButton.style.backgroundColor = "indianred";
