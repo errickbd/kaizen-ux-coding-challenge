@@ -25,7 +25,7 @@ body{
 }
 
 .challenge-main-section{
-    background-color: palevioletred;
+    background-color: whitesmoke;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-right: 50px;
@@ -253,6 +253,7 @@ body{
         padding: 0;
         margin-bottom:20px;
         flex-direction:row;
+        
     }
     
     .kaizen-btn{
@@ -540,7 +541,7 @@ body{
         padding: 50px;
         padding-right: 0;
         padding-left: 0px;
-        margin-right: 25px;
+        margin-right: 50px;
     }
     .challenge-panel-section{
         display:inline-flex;
