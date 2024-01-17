@@ -1,6 +1,6 @@
 /*--------------------------------------Overall Styling------------------------------------*/
 body{
-    background-color: silver;
+    background-color: rgb(64, 64, 64);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -113,6 +113,11 @@ body{
 
 .img-section{
     padding-left:30px;
+}
+.rounded{
+    border-top: 3px solid #bbb;
+    border-radius: 5px;
+    width:100%
 }
     
 /*--------------------------------------Screen styling (375px to 499px)------------------------------------*/    
