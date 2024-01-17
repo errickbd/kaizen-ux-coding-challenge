@@ -25,7 +25,7 @@ body{
 }
 
 .challenge-main-section{
-    background-color: whitesmoke;
+    background-color: palevioletred;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-right: 50px;
@@ -87,8 +87,7 @@ body{
     justify-content:center;
     align-items:center;
     padding: 50px;  
-    position: relative;
-    right:50px;
+    
 }
 
 .panel-text{
@@ -530,4 +529,26 @@ body{
         padding-left:30px;
     }
 }
-    
+/*--------------------------------------Screen styling (1140px +)------------------------------------*/ 
+
+@media (min-width:1140px){
+    .challenge-btn-section{
+        display:inline-flex;
+        flex-direction:column;
+        text-align:center;
+        justify-content:center;
+        padding: 50px;
+        padding-right: 0;
+        padding-left: 0px;
+        margin-right: 25px;
+    }
+    .challenge-panel-section{
+        display:inline-flex;
+        flex-direction:row;
+        justify-content:center;
+        align-items:center;
+        padding: 50px;  
+        position: relative;
+        right:30px;
+    }
+}
